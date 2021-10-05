@@ -1,0 +1,43 @@
+* {
+    margin:0px;
+    padding: 0px;
+    font-family: 'Lobster', cursive;
+    color: white;
+   
+}
+body {
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+
+
+.list-item {
+    display: flex;
+    justify-content: space-evenly;
+}
+.item {
+    list-style: none;
+}
+.link {
+    text-transform: uppercase;
+    text-decoration: none;
+    background: linear-gradient(to top, blue,red,yellow);
+    border-radius: 20px;
+    color: white;
+}
+.navbar {
+    background-color: aqua;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    line-height: 20vh;
+    height: 20vh;
+    
+}
+.video {
+    text-align: center;
+    
+}
+iframe {
+    border-radius: 20px;
+    outline: none;
+    
+    
+}
